@@ -11,10 +11,10 @@ public class PlayerController : MonoBehaviour
     {
         // Up / Down lane switching
         if (Input.GetKeyDown(KeyCode.UpArrow))
-            currentLane = Mathf.Clamp(currentLane + 1, 0, laneY.Length - 1);
+            currentLane = Mathf.Clamp(currentLane - 1, 0, laneY.Length - 1);
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
-            currentLane = Mathf.Clamp(currentLane - 1, 0, laneY.Length - 1);
+            currentLane = Mathf.Clamp(currentLane + 1, 0, laneY.Length - 1);
 
         // Apply vertical position
         Vector3 pos = transform.position;

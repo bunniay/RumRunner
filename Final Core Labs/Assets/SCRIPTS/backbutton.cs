@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class glassclick : MonoBehaviour
+public class backbutton : MonoBehaviour
 {
     public void OnStartClick()
     {
-        SceneManager.LoadScene("level");
+        SceneManager.LoadScene("Choose");
     }
 }

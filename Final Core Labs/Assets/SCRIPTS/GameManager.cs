@@ -4,9 +4,9 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager instance; // <-- static instance
 
-    public float gameSpeed = 5f;
+    public float gameSpeed = 7f;
     public float speedIncreaseRate = 0.2f;
 
     public float score;
@@ -16,10 +16,17 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        // Assign the static instance
         if (instance == null)
+        {
             instance = this;
+            // Optional: keep this GameManager between scenes
+            // DontDestroyOnLoad(gameObject);
+        }
         else
+        {
             Destroy(gameObject);
+        }
     }
 
     void Update()

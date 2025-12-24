@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 9d0338c1942b929489eb11dbbba7d7bb
+guid: b42dd055fdfa85447a54796ea7d36ed9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4160635012330822537
-    second: obstacle_0
+      213: -4571828015118065507
+    second: back_0
+  - first:
+      213: -2796314236206107100
+    second: back_1
+  - first:
+      213: -8741071136333515919
+    second: back_2
+  - first:
+      213: -4010712506205823437
+    second: back_3
+  - first:
+      213: -268665122245818335
+    second: back_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +138,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: obstacle_0
+      name: back_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 8
-        width: 61
-        height: 46
+        x: 292
+        y: 145
+        width: 1464
+        height: 1627
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98b180eef7b8db930800000000000000
-      internalID: 4160635012330822537
+      spriteID: d9065b094aa9d80c0800000000000000
+      internalID: -4571828015118065507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: back_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1765
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4263196840f7139d0800000000000000
+      internalID: -2796314236206107100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: back_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1623
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173bb6a1d1a71b680800000000000000
+      internalID: -8741071136333515919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: back_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1136
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e926ba9361758c0800000000000000
+      internalID: -4010712506205823437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: back_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 994
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1284009ae72854cf0800000000000000
+      internalID: -268665122245818335
       vertices: []
       indices: 
       edges: []
@@ -151,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b9962407b36de4545b93209c992b977c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -159,11 +259,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      obstacle_0: 4160635012330822537
+      back_0: -4571828015118065507
+      back_1: -2796314236206107100
+      back_2: -8741071136333515919
+      back_3: -4010712506205823437
+      back_4: -268665122245818335
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
