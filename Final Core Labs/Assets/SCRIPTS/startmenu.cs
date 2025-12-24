@@ -7,11 +7,11 @@ public class startmenu : MonoBehaviour
     {
         SceneManager.LoadScene("Choose");
     }
- /*  public void OnExitClick()
+   public void OnExitClick()
     {
 #if UNITY_EDITOR 
         UnityEditor.EditorApplication.isPlaying = false;
 #endif 
         Application.Quit();
-    }*/
+    }
 }
