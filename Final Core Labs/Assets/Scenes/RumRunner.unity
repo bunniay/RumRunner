@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   obstaclePrefab: {fileID: 2940998202998281422, guid: ac51187e7d37f2e4bab4465b0b203083, type: 3}
-  spawnRate: 2
+  spawnRate: 5
 --- !u!4 &174281036
 Transform:
   m_ObjectHideFlags: 0
@@ -1335,7 +1335,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 4
   m_Animation: {fileID: 7400000, guid: a366c2a8c99ba6946a8f28a550beaede, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: a366c2a8c99ba6946a8f28a550beaede, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -1853,7 +1854,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2490837027104578404, guid: ac51187e7d37f2e4bab4465b0b203083, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 10.63
       objectReference: {fileID: 0}
     - target: {fileID: 2490837027104578404, guid: ac51187e7d37f2e4bab4465b0b203083, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1897,7 +1898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2940998202998281422, guid: ac51187e7d37f2e4bab4465b0b203083, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

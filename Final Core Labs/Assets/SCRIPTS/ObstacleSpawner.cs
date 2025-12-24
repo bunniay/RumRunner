@@ -3,13 +3,13 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
     public GameObject obstaclePrefab;
-    public float spawnRate = 2f;
+    public float spawnRate = 7f;
 
     private float[] lanes = { 2f, 0f, -2f };
 
     void Start()
     {
-        InvokeRepeating("SpawnObstacle", 1f, spawnRate);
+        InvokeRepeating("SpawnObstacle", 5f, spawnRate);
     }
 
     void SpawnObstacle()

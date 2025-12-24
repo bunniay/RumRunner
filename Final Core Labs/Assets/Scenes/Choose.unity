@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 49997996}
   - component: {fileID: 49998001}
   - component: {fileID: 49998000}
+  - component: {fileID: 49998002}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -250,6 +251,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a74c66befcf06b74d91404effd35e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::glassclick
+--- !u!114 &49998002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49997995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3808e3dd3b5112a45bea53f6a4a8c8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::gotorunner
 --- !u!1 &86835472
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,7 +745,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 498077856}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 49998002}
+        m_TargetAssemblyTypeName: gotorunner, Assembly-CSharp
+        m_MethodName: OnStartClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &498077856
 MonoBehaviour:
   m_ObjectHideFlags: 0
