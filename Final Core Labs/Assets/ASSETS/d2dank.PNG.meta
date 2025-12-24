@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: ee78148ac4d613646909f9d2bad7c155
+guid: f99894136d03f2d4091f6edabfa2632b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1778779630810054874
-    second: danksprite_0
-  - first:
-      213: 6247599606436751250
-    second: danksprite_1
-  - first:
-      213: 5108172884306231567
-    second: danksprite_2
-  - first:
-      213: -2041947798698542787
-    second: danksprite_3
+      213: -597877450255893770
+    second: d2dank_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,89 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: danksprite_0
+      name: d2dank_0
       rect:
         serializedVersion: 2
-        x: 1530
+        x: 1531
         y: 0
-        width: 1354
-        height: 1587
+        width: 1352
+        height: 1586
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad0422c56ae7fa810800000000000000
-      internalID: 1778779630810054874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: danksprite_1
-      rect:
-        serializedVersion: 2
-        x: 4442
-        y: 0
-        width: 1354
-        height: 1587
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2976888adbee3b650800000000000000
-      internalID: 6247599606436751250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: danksprite_2
-      rect:
-        serializedVersion: 2
-        x: 7354
-        y: 0
-        width: 1354
-        height: 1587
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f010b5c8c20e3e640800000000000000
-      internalID: 5108172884306231567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: danksprite_3
-      rect:
-        serializedVersion: 2
-        x: 10266
-        y: 0
-        width: 1354
-        height: 1587
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d39bea8bb4b89a3e0800000000000000
-      internalID: -2041947798698542787
+      spriteID: 6faf74e60a9e3b7f0800000000000000
+      internalID: -597877450255893770
       vertices: []
       indices: 
       edges: []
@@ -226,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5a0458f262600b44ba5b9c1d3f0bc6c3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -234,14 +159,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      danksprite_0: 1778779630810054874
-      danksprite_1: 6247599606436751250
-      danksprite_2: 5108172884306231567
-      danksprite_3: -2041947798698542787
+      d2dank_0: -597877450255893770
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
