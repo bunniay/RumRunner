@@ -5,31 +5,20 @@ public class PlayerController : MonoBehaviour
     public float forwardSpeed = 5f;
 
     // Lane positions
-    private float[] lanes = { 2f, 0f, -2f };
+    private float[] laneY = { 2f, 0f, -2f };
     private int currentLane = 1; // start in middle lane
-
     void Update()
     {
-        // Constant forward movement
-        transform.Translate(Vector2.right * forwardSpeed * Time.deltaTime);
-
-        // Move up
+        // Up / Down lane switching
         if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            if (currentLane > 0)
-                currentLane--;
-        }
+            currentLane = Mathf.Clamp(currentLane + 1, 0, laneY.Length - 1);
 
-        // Move down
         if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            if (currentLane < lanes.Length - 1)
-                currentLane++;
-        }
+            currentLane = Mathf.Clamp(currentLane - 1, 0, laneY.Length - 1);
 
-        // Move car to lane
+        // Apply vertical position
         Vector3 pos = transform.position;
-        pos.y = lanes[currentLane];
+        pos.y = laneY[currentLane];
         transform.position = pos;
     }
 
